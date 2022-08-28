@@ -1,9 +1,13 @@
 # WheelOfFortune
 
 Projede bir şans oyunları mekanizması üzerinde çalıştım. Amaç çarkı çevirip ödülleri kazanmaktır. Oyuncu istediği zone seviyesinde ödülleri alıp çekilebilir. Eğer ödüller arasındaki bombanın bulunduğu dilime denk gelinirse oyun sona erer ve oyuncu topladığı ödüllerin hiçbirini alamadan oyun sona erer.
-Sadece bir defaya mahsus reklam izleyip ikinci bir şansın elde edildiği bir reklam sistemi de projenin içine entegre edilmiştir. Ayrıca 5 ve katları olan bölgeler güvenli bölge olup bomba dilimine sahip değildir.
-Projede, Zone-1 için dilimin içerikleri Unity Editor'den belirlenebilir ve değiştirilebilirdir. Her zone geçişinde dilimlerin içeriği otomatik değişecek şekilde proje kodlanmıştır.
-Ayrıca bir zone'da; herhangi bir ödül, dilimlere yalnızca bir kere gelecek şekilde proje tasarlanmıştır. Zone-30 ise süper bölgedir, ulaşıldığında hem bombasız bir spin hem de ayrıyeten özel bir ödül kazanılır. 
+Sadece bir defaya mahsus reklam izleyip ikinci bir şansın elde edildiği bir reklam sistemi de projenin içine entegre edilmiştir. Oyunda 5 ve katları olan bölgeler güvenli bölge olup bomba dilimine sahip değildir.
+Projede; Zone-1 için, dilimin içerikleri Unity Editor'den belirlenebilir ve değiştirilebilirdir. Her zone geçişinde dilimlerin içeriği otomatik değişecek şekilde proje kodlanmıştır.
+Ayrıca bir zone'da; herhangi bir ödül, dilimlere yalnızca bir kere gelecek şekilde proje tasarlanmıştır. Zone-30 ise süper bölgedir, ulaşıldığında hem bombasız bir spin hem de ek olarak özel bir ödül kazanılır. 
+
+## Projenin Drive Bağlantısı
+
+https://drive.google.com/file/d/1QD-DWjRVsfwWvsjsvSPyk4QGpz64DvJo/view?usp=sharing
 
 
 ## Screenshoots
