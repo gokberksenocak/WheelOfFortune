@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
 
     [Header("VARIABLES")]
     [SerializeField] private string[] spritenames; //sprite atlasin sprite yakalamasi icin yapildi
-    [SerializeField] private int turn; //kacinci zone'da olundugunu hesaplayan deger
+    [SerializeField] private int turn = 1; //kacinci zone'da olundugunu hesaplayan deger
     private int[] numbers = new int[9]; //loot paneldeki adet hesaplamasi icin kullanildi
     private int[] count = new int[6]; //cark diliminin spritelarini random secmek icin kullanildi
     private List<int> liste = new List<int>(); //ayni zone'da cark diliminde kullanilacak spritelari sadece bir kez secmek icin kullanildi
@@ -68,7 +68,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         SlicesContent();
-        turn = 1;
         duration = Random.Range(3f, 5.3f);
         speed = Random.Range(150f, 350f);
         text_zone.GetComponent<Material>();
@@ -92,6 +91,10 @@ public class GameManager : MonoBehaviour
         {
             Zone30Panel.SetActive(true);
             Zone30Panel.transform.GetChild(1).GetComponent<Image>().sprite = SuperZoneRewards[s];
+            if (!assign)
+            {
+                RandomRewards();
+            }
         }
         else if (turn == 30 && !allow)
         {
