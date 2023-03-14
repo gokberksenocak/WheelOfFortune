@@ -10,7 +10,7 @@ Ayrıca bir zone'da; herhangi bir ödül, dilimlere yalnızca bir kere gelecek �
 https://drive.google.com/file/d/1QD-DWjRVsfwWvsjsvSPyk4QGpz64DvJo/view?usp=sharing
 
 
-## Screenshoots
+## Screenshots
 
 
 ![Ekran Görüntüsü (758)](https://user-images.githubusercontent.com/102216059/187083396-154715bc-57e3-4d55-a569-416ea0892171.png)
